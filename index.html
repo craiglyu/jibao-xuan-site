@@ -420,7 +420,7 @@
             width: 100%;
             max-width: 360px;
             height: auto;
-            aspect-ratio: 760 / 104;
+            aspect-ratio: 500 / 104;
             margin: 24px auto 8px;
             position: relative;
             overflow: visible;
@@ -3261,26 +3261,29 @@
 
             <!-- Custom ruyi cloud — ceremonial accent confined to the Hero. -->
             <div class="ruyi-divider" aria-hidden="true">
-                <svg class="ruyi-cloud-svg" viewBox="0 0 760 104" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <svg class="ruyi-cloud-svg" viewBox="130 0 500 104" preserveAspectRatio="xMidYMid meet" focusable="false">
                     <defs>
-                        <linearGradient id="ruyi-gold" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
-                            <stop offset="0" stop-color="#8f6928" stop-opacity="0"></stop>
+                        <linearGradient id="ruyi-gold" x1="90" y1="0" x2="1065" y2="0" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#8f6928" stop-opacity="0.8"></stop>
                             <stop offset="0.16" stop-color="#a77d30" stop-opacity="0.54"></stop>
                             <stop offset="0.38" stop-color="#c49a45" stop-opacity="0.88"></stop>
                             <stop offset="0.5" stop-color="#d8b86b"></stop>
                             <stop offset="0.62" stop-color="#c49a45" stop-opacity="0.88"></stop>
                             <stop offset="0.84" stop-color="#a77d30" stop-opacity="0.54"></stop>
-                            <stop offset="1" stop-color="#8f6928" stop-opacity="0"></stop>
+                            <stop offset="1" stop-color="#8f6928" stop-opacity="0.8"></stop>
                         </linearGradient>
-                        <!-- One catalogue object becomes a reusable line engraving. -->
-                        <g id="jade-beast-line">
-                            <path class="ruyi-stroke ruyi-artifact-outline" pathLength="1" d="M246 80 C237 73 232 61 234 48 C236 33 247 19 262 16 C273 14 284 18 290 26 L297 21 C304 17 312 20 313 27 C314 32 310 36 305 38 C315 39 322 45 321 52 C320 58 314 61 308 59 C319 68 335 71 351 69 C376 66 397 53 421 48 C445 43 470 43 491 49 C512 55 525 66 526 78 C527 91 516 99 504 98 C492 97 484 90 485 81 C486 74 492 70 498 72 C505 74 507 81 503 86 C511 84 514 76 509 70 C502 62 488 62 477 68 C467 73 460 85 449 93 C440 100 428 101 420 95 C413 90 412 82 417 77 C422 73 429 75 430 81 C432 85 429 89 426 90 C434 92 440 85 438 79 C435 70 423 68 415 73 C400 82 383 90 363 91 L286 92 C270 92 256 88 246 80 Z"></path>
-                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M270 67 C257 61 251 51 253 41 C255 32 261 27 269 27 C277 27 281 33 279 39 C278 44 273 47 269 44 C266 42 267 38 270 37 C265 43 267 52 276 58 C293 68 319 69 345 64 C373 59 397 49 421 47"></path>
-                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M287 29 C294 21 304 20 310 26 C315 31 312 37 307 40 C318 40 324 46 321 52 C318 58 312 58 307 54"></path>
-                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M448 93 C459 79 467 68 480 64 C494 60 508 65 511 75 C514 85 506 92 497 90 C490 88 488 81 492 77 C495 74 500 76 500 80"></path>
-                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M398 84 C407 76 418 73 426 78 C434 83 432 92 425 94 C420 96 415 92 417 87"></path>
-                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M244 43 C251 37 259 36 266 41 M241 51 C249 45 258 45 266 50 M243 60 C251 54 260 54 269 59 M286 80 C299 75 312 76 324 81 M310 84 C323 78 337 79 349 84 M337 84 C351 78 365 78 377 82"></path>
-                            <circle class="ruyi-artifact-eye" cx="258" cy="31" r="2.15"></circle>
+                        <!-- CHANGE RUYI-PHOTO-TRACE: Photo-proportioned silhouette, pierced openings and incised curls. -->
+                        <g id="jade-beast-line" transform="translate(219 -73) scale(0.17)">
+                            <path class="ruyi-stroke ruyi-artifact-outline" pathLength="1" d="M187 531 C218 494 288 508 345 550 C359 565 364 551 381 559 C396 565 398 578 388 580 C376 590 396 608 413 599 C425 592 399 583 416 582 C439 581 452 604 444 622 L433 637 C460 631 482 658 490 687 Q491 702 479 700 Q480 685 470 690 L459 717 C483 736 513 745 532 733 Q540 723 525 713 Q522 703 540 711 L561 718 Q577 722 585 706 Q596 689 610 692 Q602 704 612 711 Q633 718 646 707 Q654 696 641 693 Q634 683 655 684 L679 691 C722 681 775 669 806 676 Q824 682 809 693 Q805 700 817 709 C891 696 964 718 1007 755 C1057 795 1076 860 1053 925 C1037 974 1000 998 960 1001 C908 1006 859 981 820 955 C786 935 765 932 748 943 C728 955 725 973 743 978 Q758 982 758 967 Q750 956 763 954 C785 956 799 979 791 999 C778 1030 733 1037 703 1024 Q671 1015 660 993 C651 1012 627 1015 608 1007 Q580 993 592 972 Q607 956 620 965 Q630 975 619 980 Q614 988 623 986 Q635 980 624 965 L594 949 C525 955 492 980 422 988 C355 998 312 991 278 985 C248 1003 224 1013 201 1000 Q172 989 158 956 C129 952 99 935 98 909 Q92 876 117 860 L134 852 C101 804 86 757 91 710 C93 650 122 592 170 570 Q192 563 188 550 Q178 541 187 531 Z"></path>
+                            <path class="ruyi-stroke ruyi-artifact-outline" pathLength="1" d="M266 695 C245 701 238 732 245 756 Q250 781 279 797 C277 772 286 751 305 741 C296 715 281 688 266 695 Z M322 782 Q309 786 316 805 Q325 816 337 817 C427 847 553 802 651 760 Q665 753 669 739 C637 752 611 762 586 749 Q581 763 580 778 Q574 790 566 776 C530 802 495 816 463 815 Q434 818 409 806 Q390 821 370 806 Q344 784 322 782 Z M738 870 C798 837 853 814 911 823 C943 828 962 846 960 875 C959 904 946 922 926 925 C905 928 891 916 894 900 Q896 881 912 880 Q918 881 911 892 Q907 900 919 901 C938 897 943 877 934 861 C924 840 891 836 871 847 C845 860 835 879 832 899 C801 878 770 870 738 870 Z M637 927 L682 895 Q663 922 657 939 Z"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M199 551 C218 577 228 554 221 546 M250 540 C297 539 332 568 347 596 C358 615 397 636 420 620 M411 652 Q440 648 433 670 Q424 691 404 675"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M154 608 Q179 586 189 599 Q201 616 179 629 M132 646 Q163 625 174 641 Q182 657 160 663 M118 688 Q146 665 156 681 Q164 699 141 704 M114 731 Q137 710 148 726 Q155 740 137 748 M123 772 Q145 752 157 768 M144 814 Q165 795 178 813"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M222 625 Q231 601 248 612 Q263 622 248 636 Q233 645 226 633 M285 605 Q297 593 307 608 Q299 623 287 615"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M197 667 C166 703 184 760 216 790 C251 837 310 858 375 859 C473 863 579 821 661 785 M349 677 C326 684 318 662 329 639 M353 728 C399 719 446 772 503 759 Q536 757 550 744"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M698 713 C723 707 743 702 768 702 M777 741 Q760 721 777 715 Q796 713 794 735 C837 723 891 727 934 748 Q955 760 946 775 Q932 786 920 778 Q911 768 923 761 M970 782 C1011 821 1027 875 1004 919 C984 960 939 975 898 958"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M709 831 Q698 798 719 787 Q734 784 735 797 M764 807 Q751 789 766 780 Q783 774 786 788 M812 785 Q802 768 819 759 Q835 753 840 768 M862 768 Q853 750 870 746 Q885 744 889 755"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M232 870 Q242 853 258 867 M265 884 Q278 864 293 880 M302 897 Q316 877 332 891 M344 904 Q360 883 376 898 M388 903 Q403 882 418 894 M433 895 Q447 874 463 884 M477 884 Q491 863 507 875 M519 870 Q533 849 549 858 M561 853 Q575 831 591 840 M604 832 Q617 811 632 819"></path>
+                            <path class="ruyi-stroke ruyi-artifact-detail" pathLength="1" d="M159 863 C175 901 207 923 242 937 M199 893 Q187 883 190 867 M667 958 C685 924 720 909 752 914 M935 958 Q956 947 967 930"></path>
                         </g>
                     </defs>
                     <g class="ruyi-cloud-group">
